@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20210114093302_InitDB.cs" />
+    <Compile Remove="Migrations\20210114093302_InitDB.Designer.cs" />
+    <Compile Remove="Migrations\20210115072143_InitDB.cs" />
+    <Compile Remove="Migrations\20210115072143_InitDB.Designer.cs" />
+    <Compile Remove="Migrations\20210115072231_InitDB.cs" />
+    <Compile Remove="Migrations\20210115072231_InitDB.Designer.cs" />
+    <Compile Remove="Migrations\20210115080255_InitialDB.cs" />
+    <Compile Remove="Migrations\20210115080255_InitialDB.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EntityFramework" Version="6.4.4" />
+    <PackageReference Include="JSON" Version="1.0.1" />
+    <PackageReference Include="Microsoft.AspNet.Mvc" Version="5.2.7" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.2.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\css\" />
+    <Folder Include="wwwroot\js\" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,6 @@
+//Путь к локальному серверу с базой данных
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=(localdb)\\MSSQLLocalDB;Database=Chat;Trusted_Connection=True;MultipleActiveResultSets=true"
+  }
+}
